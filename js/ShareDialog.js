@@ -212,6 +212,7 @@ Evented, declare, lang, has, esriNS, _WidgetBase, a11yclick, _TemplatedMixin, on
             this.set("url", url);
             // reset embed code
             this._setEmbedCode();
+            this._shareLink();
             // set url value
             domAttr.set(this._shareMapUrlText, "value", url);
             domAttr.set(this._linkButton, "href", url);
